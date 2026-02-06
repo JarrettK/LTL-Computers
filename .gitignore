@@ -1,0 +1,241 @@
+# cSpell: disable
+
+## VS CODE ##
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+*.app
+.snapshots/*
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+## BUILDS ##
+
+**/dist**
+**/node_modules**
+
+## MACOS ##
+
+# General
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[]
+
+# Thumbnails
+._*
+
+## User Settings
+xcuserdata/
+
+# Files that Might Appear in the Root of a Volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories Potentially Created on Remote AFP Share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## WINDOWS ##
+
+# Windows Thumbnail Cache Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump Files
+*.stackdump
+
+# Folder Config File
+[Dd]esktop.ini
+
+# Recycle Bin (Used on File Shares)
+$RECYCLE.BIN/
+
+# Windows Installer Files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows Shortcuts
+*.lnk
+
+
+## LINUX ##
+
+*~
+
+# Temporary Files (which can be created if a process still has a handle open of a deleted file)
+.fuse_hidden*
+
+# Metadata Left by Dolphin File Manager (which comes with KDE Plasma)
+.directory
+
+# Linux Trash Folder (which might appear on any partition or disk)
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Log Files (Created by Default by the `nohup` Command)
+nohup.out
+
+## OFFICE ##
+
+# Word Temporary Files
+~$*.doc*
+~$*.dot*
+
+# Word Auto-Backup Files
+Backup of *.doc*
+
+# Excel Temporary Files
+~$*.xls*
+
+# Excel Backup Files
+*.xlk
+
+# PowerPoint Temporary Files
+~$*.ppt*
+
+# Visio Autosave Temporary Files
+*.~vsd*
+
+# LibreOffice Locks
+.~lock.*#
+
+## IMAGES ##
+
+# JPEG
+#*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+#*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+#*.svg
+*.svgz
+
+# Portable Document Format
+#*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
+
+## ARCHIVES ##
+
+### It's better to unpack these files and commit the raw source
+### because git has its own built in compression methods.
+
+# Common Formats
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.cab
+*.xar
+*.zst
+*.tzst
+
+# Packing-Only Formats
+*.iso
+*.tar
+
+# Package Management Formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+*.txz
+
+## MISC ##
+
+# Notepad++ Backups
+*.bak
+*.tmp
+
+# Diff Files
+*.patch
+*.diff
