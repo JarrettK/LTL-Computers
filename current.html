@@ -1,90 +1,8 @@
-<!-- 
-    WEEK 5 | 2 TASKS:
-      - Update CSS for Centering Content & Spacing Sections
-      - Update CSS for Styling Forms
-
-    ** ALL OF THE `WEEK 5 | NOTE {number}: ...` NOTES CAN BE REMOVED - FOR INFORMATION/EXAMPLE ONLY **
--->
-
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>The Lord of the Rings</title>
-    <style>
-        /* WEEK 5: #1 | COPY LINES 13-32 [ADD BELOW LINE 12] - Update CSS for Centering Content & Spacing Sections */
-        * {
-            box-sizing: border-box;
-        }
-
-        /* WEEK 5 | NOTE 1: Center the Main Content */
-        main {
-            /* WEEK 5 | NOTE 1A: Readable Line Length */
-            max-width: 800px;
-            /* WEEK 5 | NOTE 1B: Center Horizontally */
-            margin: 0 auto;
-            /* WEEK 5 | NOTE 1C: Edge Gutters */
-            padding: 0 20px;
-        }
-
-        /* WEEK 5 | NOTE 2: Space Out Sections */
-        section {
-            margin-bottom: 60px;
-            border-bottom: 1px solid #1e293b;
-            padding-bottom: 40px;
-        }
-
-        body {
-            background-color: #0f172a;
-            font-family: 'Verdana', sans-serif;
-            color: #cbd5e1;
-            line-height: 1.6;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-family: 'Georgia', serif;
-            color: #fbbf24;
-        }
-
-        a {
-            color: #60a5fa;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* WEEK 5: #2 | COPY LINES 60-68 [ADD BELOW LINE 38 (a:hover {...})] - Update CSS for Form Styling */
-        /* WEEK 5 | NOTE 3: Style Forms */
-        input,
-        select {
-            width: 100%;
-            padding: 12px;
-            border-radius: 8px;
-            border: 1px solid #334155;
-            background: #1e293b;
-            color: white;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th {
-            background-color: #1e293b;
-            color: #fbbf24;
-        }
-
-        td,
-        th {
-            padding: 10px;
-            border: 1px solid #334155;
-        }
-    </style>
 </head>
 
 <body>
@@ -173,24 +91,7 @@
 
         <section id="join">
             <h2>Join the Fellowship</h2>
-            <p>Get monthly updates from Middle-earth.</p>
-            <form onsubmit="alert('Thanks for joining! The eagles are coming!'); return false;">
-                <div>
-                    <label for="email-input">Email Address:</label><br>
-                    <input type="email" id="email-input" name="email" required placeholder="frodo@theshire.com">
-                </div>
-                <br>
-                <div>
-                    <label for="realm-select">Preferred Realm:</label><br>
-                    <select id="realm-select" name="realm">
-                        <option value="shire">The Shire</option>
-                        <option value="gondor">Gondor</option>
-                        <option value="rohan">Rohan</option>
-                    </select>
-                </div>
-                <br>
-                <button type="submit">Subscribe</button>
-            </form>
+            <p>[Sign up form will go here soon]</p>
         </section>
     </main>
 

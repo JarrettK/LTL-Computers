@@ -26,5 +26,16 @@
         "Sméagol",
         "tagname",
         "Tirith"
-    ]
+    ],
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    },
+    "editor.hover.delay": 500, // Delay before tooltips appear
+    "editor.quickSuggestionsDelay": 500, // Delay for quick suggestions
+    "editor.hover.enabled": "on", // Keep hover tooltips enabled
+    "gitlens.hovers.enabled": false,
+    "git.blame.editorDecoration.disableHover": true
 }
