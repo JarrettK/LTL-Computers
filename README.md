@@ -220,3 +220,26 @@ A: Technically yes, but best practice is to use **only one `<h1>` per page** as 
 A: Use `<!-- comment here -->` - the browser will ignore anything between `<!--` and `-->`.
 
 ---
+
+## Common Git Issues
+
+### Can't Push
+
+If you get an error like:
+
+```git
+> git push origin main:main
+error: RPC failed; HTTP 400 curl 22 The requested URL returned error: 400
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+```
+
+You can try temporarily changing the buffer size *(especially if you are pushing images)*:
+
+```bash
+git config --global http.postBuffer 1048576  # Resets to 1 MB
+git config --global http.postBuffer 2097152  # Sets buffer to 2 MB
+git config --global http.postBuffer 5242880  # Sets buffer to 5 MB
+git config --global http.postBuffer 10485760  # Sets buffer to 10 MB
+git config --global http.postBuffer 524288000  # Sets buffer to 500 MB
+```
